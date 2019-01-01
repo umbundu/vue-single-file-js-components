@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vue.js Single-File JavaScript Component Demo</title>
+    <script src="node_modules/vue/dist/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+    <p>{{ who }}</p>
+    <single-file-component></single-file-component>
+</div>
+</body>
+<script type="module" src="app.js"></script>
+<script nomodule src="/dist/build.js"></script>
+</html>
